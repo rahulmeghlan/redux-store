@@ -1,5 +1,5 @@
 TN:
-SF:/Users/rmeghlan/Development/Personal/humanitec-store/src/actions/add.action.js
+SF:/Users/rmeghlan/Development/Personal/humanitec-store/actions/add.action.js
 FN:4,addContact
 FNF:1
 FNH:1
@@ -12,7 +12,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/rmeghlan/Development/Personal/humanitec-store/src/actions/filter.action.js
+SF:/Users/rmeghlan/Development/Personal/humanitec-store/actions/filter.action.js
 FN:3,applyFilter
 FNF:1
 FNH:1
@@ -25,7 +25,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/rmeghlan/Development/Personal/humanitec-store/src/actions/sort.action.js
+SF:/Users/rmeghlan/Development/Personal/humanitec-store/actions/sort.action.js
 FN:3,sortContacts
 FNF:1
 FNH:1
@@ -38,7 +38,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/rmeghlan/Development/Personal/humanitec-store/src/actions/update.action.js
+SF:/Users/rmeghlan/Development/Personal/humanitec-store/actions/update.action.js
 FN:3,updateContact
 FNF:1
 FNH:1
@@ -51,7 +51,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/rmeghlan/Development/Personal/humanitec-store/src/reducers/contact-list.reducer.js
+SF:/Users/rmeghlan/Development/Personal/humanitec-store/reducers/contact-list.reducer.js
 FN:4,(anonymous_0)
 FN:9,(anonymous_1)
 FNF:2
@@ -75,7 +75,7 @@ BRF:6
 BRH:4
 end_of_record
 TN:
-SF:/Users/rmeghlan/Development/Personal/humanitec-store/src/reducers/filters.reducer.js
+SF:/Users/rmeghlan/Development/Personal/humanitec-store/reducers/filters.reducer.js
 FN:3,(anonymous_0)
 FNF:1
 FNH:1
@@ -93,7 +93,7 @@ BRF:3
 BRH:2
 end_of_record
 TN:
-SF:/Users/rmeghlan/Development/Personal/humanitec-store/src/reducers/sort.reducer.js
+SF:/Users/rmeghlan/Development/Personal/humanitec-store/reducers/sort.reducer.js
 FN:3,(anonymous_0)
 FNF:1
 FNH:1

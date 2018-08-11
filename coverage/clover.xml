@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1534016507990" clover="3.2.0">
-  <project timestamp="1534016507990" name="All files">
+<coverage generated="1534016889335" clover="3.2.0">
+  <project timestamp="1534016889335" name="All files">
     <metrics statements="21" coveredstatements="21" conditionals="12" coveredconditionals="8" methods="8" coveredmethods="8" elements="41" coveredelements="37" complexity="0" loc="21" ncloc="21" packages="2" files="7" classes="7">
       <package name="actions">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <file name="add.action.js" path="/Users/rmeghlan/Development/Personal/humanitec-store/src/actions/add.action.js">
+        <file name="add.action.js" path="/Users/rmeghlan/Development/Personal/humanitec-store/actions/add.action.js">
           <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
           <line num="1" count="2" type="stmt"/>
           <line num="5" count="1" type="stmt"/>
         </file>
-        <file name="filter.action.js" path="/Users/rmeghlan/Development/Personal/humanitec-store/src/actions/filter.action.js">
+        <file name="filter.action.js" path="/Users/rmeghlan/Development/Personal/humanitec-store/actions/filter.action.js">
           <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
           <line num="1" count="2" type="stmt"/>
           <line num="4" count="1" type="stmt"/>
         </file>
-        <file name="sort.action.js" path="/Users/rmeghlan/Development/Personal/humanitec-store/src/actions/sort.action.js">
+        <file name="sort.action.js" path="/Users/rmeghlan/Development/Personal/humanitec-store/actions/sort.action.js">
           <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
           <line num="1" count="2" type="stmt"/>
           <line num="4" count="1" type="stmt"/>
         </file>
-        <file name="update.action.js" path="/Users/rmeghlan/Development/Personal/humanitec-store/src/actions/update.action.js">
+        <file name="update.action.js" path="/Users/rmeghlan/Development/Personal/humanitec-store/actions/update.action.js">
           <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
           <line num="1" count="2" type="stmt"/>
           <line num="4" count="1" type="stmt"/>
@@ -27,7 +27,7 @@
       </package>
       <package name="reducers">
         <metrics statements="13" coveredstatements="13" conditionals="12" coveredconditionals="8" methods="4" coveredmethods="4"/>
-        <file name="contact-list.reducer.js" path="/Users/rmeghlan/Development/Personal/humanitec-store/src/reducers/contact-list.reducer.js">
+        <file name="contact-list.reducer.js" path="/Users/rmeghlan/Development/Personal/humanitec-store/reducers/contact-list.reducer.js">
           <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="4" methods="2" coveredmethods="2"/>
           <line num="4" count="1" type="cond" truecount="0" falsecount="1"/>
           <line num="5" count="3" type="cond" truecount="3" falsecount="0"/>
@@ -35,14 +35,14 @@
           <line num="9" count="1" type="cond" truecount="1" falsecount="1"/>
           <line num="11" count="1" type="stmt"/>
         </file>
-        <file name="filters.reducer.js" path="/Users/rmeghlan/Development/Personal/humanitec-store/src/reducers/filters.reducer.js">
+        <file name="filters.reducer.js" path="/Users/rmeghlan/Development/Personal/humanitec-store/reducers/filters.reducer.js">
           <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
           <line num="3" count="1" type="cond" truecount="0" falsecount="1"/>
           <line num="4" count="3" type="cond" truecount="2" falsecount="0"/>
           <line num="6" count="1" type="stmt"/>
           <line num="8" count="2" type="stmt"/>
         </file>
-        <file name="sort.reducer.js" path="/Users/rmeghlan/Development/Personal/humanitec-store/src/reducers/sort.reducer.js">
+        <file name="sort.reducer.js" path="/Users/rmeghlan/Development/Personal/humanitec-store/reducers/sort.reducer.js">
           <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
           <line num="3" count="1" type="cond" truecount="0" falsecount="1"/>
           <line num="4" count="2" type="cond" truecount="2" falsecount="0"/>
