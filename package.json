@@ -1,0 +1,33 @@
+{
+  "name": "humanitec-store",
+  "version": "1.0.0",
+  "description": "This is the common store module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulmeghlan/redux-store.git"
+  },
+  "keywords": [
+    "redux",
+    "common-store"
+  ],
+  "author": "Rahul Meghlan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulmeghlan/redux-store/issues"
+  },
+  "homepage": "https://github.com/rahulmeghlan/redux-store#readme",
+  "dependencies": {
+    "redux": "^4.0.0",
+    "uniqid": "^5.0.3"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.5.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
