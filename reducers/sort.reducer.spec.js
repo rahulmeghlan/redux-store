@@ -7,10 +7,10 @@ describe('Sort ', function () {
     });
 
     test('should return the sort obj passed', () => {
-        const fieldOrder = {
+        const field = {
             field: 'firstName',
             order: 'asc'
         };
-        expect(sort({}, {type: SORT_CONTACTS, fieldOrder})).toEqual(fieldOrder);
+        expect(sort({}, {type: SORT_CONTACTS, field})).toEqual(field);
     });
 });
