@@ -1,7 +1,10 @@
 import {ADD_CONTACT} from '../actions/add.action';
 import {UPDATE_CONTACT} from '../actions/update.action';
+import {contactInfo} from "../contact-info";
 
-const contactList = (state = [], action) => {
+const defaultState = contactInfo && contactInfo.contactList.length ? contactInfo.contactList : [];
+
+const contactList = (state = defaultState, action) => {
     switch (action.type) {
         case ADD_CONTACT:
             return [...state, action.contact];

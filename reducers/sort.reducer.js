@@ -1,6 +1,9 @@
-import {SORT_CONTACTS, sortContacts} from "../actions/sort.action";
+import {SORT_CONTACTS} from "../actions/sort.action";
+import {contactInfo} from "../contact-info";
 
-const sort = (state = {}, action) => {
+const defaultState = contactInfo && contactInfo.fieldOrder ? contactInfo.fieldOrder : {};
+
+const sort = (state = defaultState, action) => {
   switch (action.type) {
       case SORT_CONTACTS:
           return action.fieldOrder;
