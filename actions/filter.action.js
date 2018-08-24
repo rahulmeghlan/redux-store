@@ -6,5 +6,3 @@ export function applyFilter(filter) {
         filter
     }
 }
-
-
