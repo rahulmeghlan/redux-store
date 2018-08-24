@@ -1,20 +1,28 @@
-import {createStore} from 'redux';
-import contactStore from './reducers';
+import store from './store';
+import {applyFilter} from './actions/filter.action';
+import {sortContacts} from './actions/sort.action';
+import {addContact} from './actions/add.action';
 
-const store = createStore(contactStore);
-export default store;
+function updateContactInfo() {
+    localStorage.setItem('contactInfo', JSON.stringify(store.getState()));
+}
 
-/**
- * @example: Following example states the way to dispatch and listen to state updates,
- * to be used by the consumer of this module.
- *
- const unscubscribe = store.subscribe(() => {
-    console.log("Subscriber: ", store.getState());
+export const unsubscribe = store.subscribe(() => {
+    updateContactInfo();
 });
 
+export function saveFilter(filters) {
+    store.dispatch(applyFilter(filters));
+}
 
- store.dispatch(addContact({//obj goes here}));
+export function saveSortData(sortObj) {
+    store.dispatch(sortContacts(sortObj));
+}
 
+export function saveContact(contact) {
+    store.dispatch(addContact(contact));
+}
 
- unscubscribe();
- */
+export function getContactInfo() {
+    return JSON.parse(localStorage.getItem('contactInfo'));
+}
