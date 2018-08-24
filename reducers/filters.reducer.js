@@ -1,5 +1,5 @@
 import {FILTER_CONTACTS} from "../actions/filter.action";
-import {contactInfo} from "../contact-info";
+import {contactInfo} from "../utilites/store-utilities";
 
 const defaultState = contactInfo && contactInfo.filters ? contactInfo.filters : '';
 

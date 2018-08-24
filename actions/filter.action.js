@@ -8,4 +8,3 @@ export function applyFilter(filter) {
 }
 
 
-//const indexOf = (array, value, key) => array.reduce((a, b, idx) => (key ? b[key] === value : b[idx] === value) ? idx : a, -1);

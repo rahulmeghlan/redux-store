@@ -1,5 +1,5 @@
 import {SORT_CONTACTS} from "../actions/sort.action";
-import {contactInfo} from "../contact-info";
+import {contactInfo} from "../utilites/store-utilities";
 
 const defaultState = contactInfo && contactInfo.sort ? contactInfo.sort : {};
 
