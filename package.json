@@ -1,6 +1,6 @@
 {
   "name": "humanitec-store",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "This is the common store module.",
   "main": "index.js",
   "scripts": {
