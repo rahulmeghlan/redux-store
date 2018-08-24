@@ -24,5 +24,5 @@ export function saveContact(contact) {
 }
 
 export function getContactInfo() {
-    return JSON.parse(localStorage.getItem('contactInfo'));
+    return localStorage.getItem('contactInfo') !== null ? JSON.parse(localStorage.getItem('contactInfo')) : {};
 }
